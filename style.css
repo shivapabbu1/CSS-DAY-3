@@ -1,0 +1,64 @@
+button{
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    color: brown;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+#para{
+    font-family: 'Shalimar', cursive;
+}
+.box{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}
+.box:hover{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    animation: box 5s linear infinite;
+}
+@keyframes box {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+        
+    }
+    100%{
+        background-color: crimson;
+    }
+    
+}
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+#image{
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    
+}
+#image:hover{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    animation: image 3s linear 0.5s infinite;
+
+}
+@keyframes image{
+100%{
+ transform: scaleX(30px);
+}
+}
